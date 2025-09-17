@@ -31,7 +31,7 @@ public class StartCom {
         String welcomeMessage2 = """
                 
                 Мы рады, что ты теперь работаешь в нашей команде!
-                Давай познакомимся поближе! Выбирай нужный раздел.""";
+                Давай познакомимся поближе! sВыбирай нужный раздел.""";
         SendMessage sendMessage1 =  SendMessage.builder()
                 .chatId(chatId)
                 .text(welcomeMessage1)
